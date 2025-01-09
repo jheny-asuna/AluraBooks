@@ -38,10 +38,10 @@
                 <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
         <section class="carrossel">
-                <h1 class="carrossel__titulo">últimos lançamentos</h1>
+            <h1 class="carrossel__titulo">últimos lançamentos</h1>
                 <!-- Slider main container -->
                 <!-- If we need pagination -->
-             <div class="swiper-pagination"></div>
+            <div class="swiper-pagination1"></div>
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
@@ -57,18 +57,74 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
-    </section>
+            <div class="cards">
+                <div class="cards__conteudo">
+                    <div>
+                    <h2 class="cards__titulo">Talvez você também se interesse por...</h2>
+                    <h3 class="cards__subtitulo">Angular 11 e Firebase</h3>
+                    <p class="cards__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                <img src="assets/fotoa.svg" alt="Foto capa do livro angular">
+                </div>
+                <div class="cards__botoes">
+                    <ul class="botoes__img">
+                        <li><img src="assets/Favoritos.svg" alt="Favoritar"></li>
+                        <li><img src="assets/Compras.svg" alt="Adicionar ao carrinho"></li>
+                    </ul>
+                    <a href="#" class="botao__saibamais">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
-            });
-    </script>
+        <section class="carrossel">
+            <h1 class="carrossel__titulo">últimos lançamentos</h1>
+                <!-- Slider main container -->
+                <!-- If we need pagination -->
+            <div class="swiper-pagination2"></div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/ApacheKafka.svg" alt="Livro sobre apache"></div>
+                <div class="swiper-slide"><img src="assets/Angular.svg" alt="Livro sobre angular"></div>
+                <div class="swiper-slide"><img src="assets/Guia Front-end.svg" alt="Livro guia FrontEnd"></div>
+                <div class="swiper-slide"><img src="assets/Javascript.svg" alt="Livro sobre JavaScript"></div>
+                <div class="swiper-slide"><img src="assets/MetricasAgeis.svg" alt="Livro de métricas"></div>
+                <div class="swiper-slide"><img src="assets/Tuning.svg" alt="Livro sobre tuning"></div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="cards">
+                <div class="cards__conteudo">
+                    <div>
+                    <h2 class="cards__titulo">Talvez você também se interesse por...</h2>
+                    <h3 class="cards__subtitulo">Angular 11 e Firebase</h3>
+                    <p class="cards__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                <img src="assets/fotoa.svg" alt="Foto capa do livro angular">
+                </div>
+                <div class="cards__botoes">
+                    <ul class="botoes__img">
+                        <li><img src="assets/Favoritos.svg" alt="Favoritar"></li>
+                        <li><img src="assets/Compras.svg" alt="Adicionar ao carrinho"></li>
+                    </ul>
+                    <a href="#" class="botao__saibamais">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                });
+        </script>
     </body>
 </html>

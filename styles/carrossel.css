@@ -1,6 +1,6 @@
 .carrossel__titulo {
     color: var(--laranja);
-    background-color: lightgray;
+    background-color: var(--branco);
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -16,7 +16,64 @@
     display: none;
 }
 
-.swiper-pagination {
+.swiper-pagination1 {
+    position: initial;
+    margin: .5em 0;
+}
+
+.cards {
+    justify-content: space-between;
+    margin: 1.5em;
+    padding: 1em;
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.cards__conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__titulo {
+    font-size: 16px;
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.cards__subtitulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    padding: 1em 0;
+}
+
+.cards__texto {
+    font-size: 14px;
+    padding-right: 1.5em;
+    font-weight: 300;
+}
+
+.cards__botoes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.botoes__img {
+    display: flex;
+}
+
+.botao__saibamais {
+    background-color: var(--laranja);
+    padding: 1em 2.4em;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.swiper-pagination1 {
     position: initial;
     margin: .5em 0;
 }
