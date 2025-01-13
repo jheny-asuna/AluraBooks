@@ -46,6 +46,60 @@ hr {
 
 .rodape {
     background-color: var(--branco);
-    color: black; 
     padding: 1em;
+}
+
+.rodape__titulo {
+    color: black;
+}
+
+.lista__rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 3em;
+    }
+    .contato__titulo {
+        font-size: 24px;
+    }
+    .contato__email {
+        width: 30%;
+    }
+    .contato__div {
+        width: 35%;
+    }
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+    .rodape__titulo {
+        font-size: 24px;
+        padding: 1em 2em 0 1em;
+    }
+    .lista__rodape {
+        display: block;
+        padding: 1em;
+    }
+    .lista__rodape-titulo {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: var(--cinza-claro);
+        padding-bottom: 1em;
+    }
+    .lista__rodape-link {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--cinza);
+        padding-left: .5em;
+    }
+    .lista__rodape-item {
+        display: flex;
+        align-items: center;
+        padding: .5em;
+    }
 }
