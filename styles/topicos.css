@@ -43,3 +43,13 @@
         margin: 2em 0;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos__titulo {
+        font-size: 32px;
+        width: 300;
+    }
+    .topicos {
+        padding: 3em 25em;
+    }
+}

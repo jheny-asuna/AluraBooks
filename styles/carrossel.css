@@ -96,3 +96,30 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__cards {
+        display: flex;
+        align-items: center;
+        padding: 4em 5em;
+    }
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+    .swiper {
+        width: 40%;
+    }
+    .cards {
+        margin-top: 5em;
+        width: 40%;
+        padding: 2em;
+    }
+    .cards__titulo {
+        font-size: 32px;
+        padding-right: 3em;
+    } 
+    .cards__texto {
+        font-size: 16px;
+        margin-right: 8em;
+    } 
+}

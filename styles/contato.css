@@ -103,3 +103,25 @@ hr {
         padding: .5em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 10em;
+    }
+    .contato__div {
+        width: 30%;
+        margin-right: 2em;
+    }
+    .contato__texto {
+        padding-right: 5em;
+    }
+    .contato__email {
+        width: 27%;
+    }
+    .lista__rodape {
+        border-left: solid 1px var(--cinza-claro);
+    }
+    .rodape {
+        padding: 3em 2em;
+    }
+}
